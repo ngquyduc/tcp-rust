@@ -1,0 +1,16 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'cs3211_assignment_3'",
+      "program": "${workspaceFolder}/target/debug/cs3211_assignment_3",
+      "args": ["8080", "1", "1", "1"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
