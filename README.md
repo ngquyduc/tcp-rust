@@ -1,4 +1,4 @@
-# CS3211 Assignment 3
+# High performance TCP Server in Rust
 
 ### 0. Contributors
 
