@@ -39,7 +39,7 @@
 
 - **Yes, the server can run tasks in parallel**. It leverages asynchronous processing within the Tokio runtime, enabling multiple tasks to be executed concurrently. This approach ensures that the server can efficiently handle client connections while simultaneously processing tasks without blocking. By utilizing asynchronous execution, the server optimizes resource utilization and responsiveness, enabling effective parallel execution of tasks.
 
-### 5. If you have tried multiple implementations, explain the differences and your evolution to the current submission.
+### 5. How can we get to this solution?
 
 - In our initial exploration, we experimented with **Rayon's thread pool** for handling concurrent tasks. However, we encountered difficulties integrating it with the given server architecture (the code couldn't compile). Balancing thread pools alongside asynchronous operations is somewhat challenging and may introduce potential overhead.
 
